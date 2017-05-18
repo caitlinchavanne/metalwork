@@ -1,0 +1,47 @@
+header#header {
+    
+    @include dp(inline-block,relative);
+    @include tl(0px,0px);
+    @include mp(0px,0px);
+    width: 100%;
+    
+    div.container {
+        
+        @include dp(inline-block,relative);
+        width: 100%;
+        
+    }
+    div#brand {
+        a {}
+    }
+    div#nav {
+        nav.nav-primary {
+            
+            @include fill();
+            
+            div.menu-primary-container {
+                
+                @include fill();
+                
+                ul.nav {
+                    
+                    @include dp(inline-block,absolute);
+                    @include mp(0px,0px);
+                    width: 100%;
+                    list-style: none;
+                    
+                    li.menu-item {
+                        
+                        @include dp(inline-block,relative);
+                        width: 25%;
+                        
+                        a {}
+                    }
+                    li.current-menu-item {
+                        a{}
+                    }
+                }
+            }
+        }
+    }
+}

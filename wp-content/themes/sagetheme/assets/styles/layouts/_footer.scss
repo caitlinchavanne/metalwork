@@ -1,0 +1,5 @@
+footer#footer {
+    @include dp(inline-block,relative);
+    @include mp(0px,0px);
+    width: 100%;
+}

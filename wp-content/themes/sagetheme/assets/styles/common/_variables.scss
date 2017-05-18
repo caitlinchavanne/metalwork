@@ -1,0 +1,54 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//mixins
+
+@mixin fill() {
+    display: inline-block;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+@mixin dp($d,$p) {
+    display: $d;
+    position: $p;
+}
+
+@mixin tl($t,$l) {
+    top: $t;
+    left:$l;
+}
+
+@mixin wh($w,$h) {
+    width: $w;
+    height: $h;
+}
+
+@mixin mp($m,$p) {
+    margin: $m;
+    padding: $p;
+}

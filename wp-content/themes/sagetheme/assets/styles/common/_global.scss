@@ -1,0 +1,17 @@
+html body {
+    @include dp(inline-block,absolute);
+    @include tl(0px,0px);
+    @include mp(0px,0px);
+    width: 100%;
+header#header {
+    
+    }
+main#main {
+    @include dp(inline-block,relative);
+    @include mp(0px,0px);
+    width: 100%;
+    }
+footer#footer {
+    
+    } 
+}
